@@ -1,0 +1,42 @@
+/*
+ Quizz 1:
+ For each of the following expressions on the right side of operator <<, 
+    indicate whether the expression is an lvalue or rvalue:
+*/
+
+    1)a: rvalue
+
+    1)b: lvalue
+
+    1)c: rvalue
+
+    1)d: rvalue
+
+    1)e: lvalue
+
+/*
+ Quizz 2:
+ What is the output of this program?
+*/
+
+    Q2: 7 6
+
+/*
+ Quizz 3:
+ Name two reasons why we prefer to pass arguments by const reference instead of 
+    by non-const reference whenever possible.
+*/
+
+    Q3:
+    possible= not necessary to modify value of referenced variable
+        1- Avoids changing the value of the referenced variable by mistake (read-only)
+        2- A const reference-parameter can accept a modifiable lvalue, a non-modifiable lvalue, or an rvalue as an argument.*
+
+/*
+ Quizz 4:
+ What is the difference between a const pointer and a pointer-to-const?
+*/
+
+Q4: 
+    A const pointer cannot be "reseated"->re-pointed* to point to a different vairable/address (even if the same type)
+    A pointer-to-const cannot modify the vairable's value to which is pointing to

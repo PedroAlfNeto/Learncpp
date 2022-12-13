@@ -1,0 +1,32 @@
+/*
+ Specify whether objects of each of the given types should be passed by value, const address, or const reference. 
+ You can assume the function that takes these types as parameters doesn’t modify them.
+*/
+
+
+a) char
+    A: value
+
+b) std::string
+    A: const reference
+
+c) unsigned long
+    A: value
+
+d) bool
+    A: value
+
+e) An enumerated type
+    A: value
+
+f)  a struct
+    A: const reference
+
+g)  a struct
+    A: const reference
+
+h) an object whose address is held in an int*
+    A: const address
+
+i) std::string_view
+    A: value
