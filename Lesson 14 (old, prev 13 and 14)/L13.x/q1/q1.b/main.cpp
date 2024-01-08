@@ -1,5 +1,5 @@
 /*
- Question 1:
+ Question 1: Moved to L14.x.b
  b) Now add a member function named distanceTo that takes another Point2d as a parameter,
     and calculates the distance between them.
  Given two points (x1, y1) and (x2, y2), the distance between them can be calculated as

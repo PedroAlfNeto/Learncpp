@@ -1,5 +1,5 @@
 /*
- Quizz 4:
+ Quizz 4: "The blackjack quiz that used to be part of this lesson has been moved to lesson 17.x -- Chapter 17 summary and quiz.""
  Okay, time for that game face again. This one is going to be a challenge.
  Let’s rewrite the Blackjack game we wrote in a previous lesson 
     (11.x -- Chapter 11 comprehensive quiz) using classes!
