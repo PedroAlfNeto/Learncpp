@@ -1,5 +1,5 @@
 /*
- Quizz 3:
+ Quizz 3: (deprecated by new 14.5.q3)
  Let’s write a class that implements a simple stack from scratch.
  The class should be named Stack, and should contain:
     A private array of integers of length 10.

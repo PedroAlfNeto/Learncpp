@@ -1,5 +1,5 @@
 /*
- Quizz 1:
+ Quizz 1: (deprecated by new 14.3)
  a) Create a class called IntPair that holds two integers.
  This class should have two member variables to hold the integers.
  You should also create two member functions:

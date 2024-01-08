@@ -1,5 +1,5 @@
 /*
- Quizz 1:
+ Quizz 1: (deprecated by new 14.2.q2)
  b)  Update your answer to the previous question to use constructors with default parameters. 
  Use as few constructors as possible.
 

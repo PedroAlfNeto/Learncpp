@@ -1,5 +1,5 @@
 /*
- Quizz 1:
+ Quizz 1: (deprecated by new 14.2.q1)
  a) Write a class named Ball. Ball should have two private member variables with default values: 
  		m_color (“black”) and m_radius (10.0). Ball should provide constructors to set only m_color, 
 		set only m_radius, set both, or set neither value. For this quiz question, 
@@ -28,8 +28,7 @@ public:
 	}
 
 	// Constructor to set only m_radius
-	Ball(double r)
-	{
+	Ball(double r)	{
 		m_radius=r;
 	}
 

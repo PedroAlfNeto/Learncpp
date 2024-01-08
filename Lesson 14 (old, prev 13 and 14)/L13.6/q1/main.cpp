@@ -1,5 +1,5 @@
 /*
- Quizz 1:
+ Quizz 1: (deprecated - appears removed in new 14)
  Write a class named RGBA that contains 4 member variables of type std::uint8_t named
 	m_red, m_green, m_blue, and m_alpha (#include cstdint to access type std::uint8_t).
  Assign default values of 0 to m_red, m_green, and m_blue, and 255 to m_alpha.

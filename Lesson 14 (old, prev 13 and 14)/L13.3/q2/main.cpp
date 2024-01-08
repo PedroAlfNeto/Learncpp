@@ -1,5 +1,5 @@
 /*
- Quizz 2:
+ Quizz 2: (deprecated by new 14.5.q2)
  a) Write a simple class named Point3d. The class should contain:
     Three private member variables of type int named m_x, m_y, and m_z;
     A public member function named setValues() that allows you to set values for m_x, m_y, and m_z.
