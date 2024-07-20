@@ -6,6 +6,12 @@
  operator and the at() member function. The program should output the following:
     The array has 5 elements.
     ee
+
+ b) What type does size_type default to? Is it signed or unsigned?
+ Unsigned int resulting from sizeof
+
+ c) Which functions to get the length of a container return size_type?
+ sizeof and std::size() (-std=c++20)
 */
 
 #include <iostream>
