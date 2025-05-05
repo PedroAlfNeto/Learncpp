@@ -37,7 +37,7 @@ bool isPrime(int x) // q2: write this function using a for loop
 
 int main()
 {
-    // assert(!isPrime(0));
+    assert(!isPrime(0));
     assert(!isPrime(1));
     assert(isPrime(2));
     assert(isPrime(3));
