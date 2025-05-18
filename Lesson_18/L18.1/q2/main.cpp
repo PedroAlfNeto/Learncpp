@@ -20,7 +20,7 @@ int main()
         int maxIndex{nIndex}; // assume nIndex is max
 
         // Identify max value index in range
-        for (int i{nIndex}; i < array_len; i++)
+        for (int i{nIndex+1}; i < array_len; i++)
         {
             if (array[i] > array[maxIndex])
             {

@@ -5,7 +5,6 @@
  Show the array after each swap that takes place.
 */
 
-//#include "main.hpp"
 #include <iostream>
 #include <utility> // for using std::swap
 
@@ -24,7 +23,7 @@ int main()
         smallestIndex=nIndex;
         
         // Identify smallest value index in range
-        for (int i{nIndex}; i < array_len; i++)
+        for (int i{nIndex+1}; i < array_len; i++)
         {
             if (array[i] < array[smallestIndex])
             {

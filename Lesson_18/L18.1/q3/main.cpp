@@ -11,8 +11,7 @@
 */
 
 #include <iostream>
-#include <utility>
-#include <chrono> // for timing the sort algorithms
+#include <utility> // for std::swap
 
 void print_array(const int array[9], int length);
 void bubblesort_unoptimized(int array[9], int length);
@@ -24,7 +23,7 @@ int main()
     int array1[]{6, 3, 2, 9, 7, 1, 5, 4, 8};
 
     // Determine lengh of array
-    int len{static_cast<int>(std::size(array1))}; // avoid magic number
+    int len{static_cast<int>(std::size(array1))};
 
     // Print unsorted array
     std::cout << "Printing unsorted array:\n";
@@ -58,9 +57,10 @@ void bubblesort_unoptimized(int array[], int length)
 {
     int cnt{0};
     // Perform a bubblesort cycle per each element (unoptimized)
-    for (cnt=0; cnt < length; cnt++)
+    for (cnt=0; cnt < length - 1; cnt++)
     {
         // Compare sequential array elements and sort by increasing size
+        // The last element has no pair to compare against
         for (int idx{0}; idx < length - 1; ++idx)
         {
             // Swap elements if sorting is needed
@@ -100,12 +100,12 @@ void bubblesort_optimized_detection(int array[], int lenght)
 }
 
 // Print array
-void print_array(const int array[9], int lenght)
+void print_array(const int array[9], int length)
 {
     std::cout << "array[9] = [ ";
-    for (int i = 0; i < lenght - 1; i++)
+    for (int i = 0; i < length - 1; i++)
     {
         std::cout << array[i] << ", ";
     }
-    std::cout << array[lenght - 1] << " ]\n\n";
+    std::cout << array[length - 1] << " ]\n\n";
 }

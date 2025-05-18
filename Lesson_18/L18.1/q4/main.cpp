@@ -103,6 +103,7 @@ void bubblesort_optimized(int array[], int length)
         //print_array(array, length);
 
         // Early detection that the array is already sorted
+        // If not swaps perfomred, array is already sorted
         if (cnt_swaped < 1)
         {
             break; // No need for further bubblesort cycles
